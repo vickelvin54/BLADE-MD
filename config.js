@@ -17,10 +17,10 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/3f3ae4a
 module.exports = {
   sessionName: process.env.SESSION_ID || "",      //Put Your Session Id Here
   author:  process.env.PACK_AUTHER ||  'BLADE BOT',
-  packname:  process.env.PACK_NAME || 'MADE BY ALEX DAVID',
+  packname:  process.env.PACK_NAME || 'MADE BY KELVIN',
   
-  botname:   process.env.BOT_NAME === undefined ? "BLADE-MD" : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'alexdavid' : process.env.OWNER_NAME,  
+  botname:   process.env.BOT_NAME === undefined ? "KELVIN-MD" : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? 'vickelvin' : process.env.OWNER_NAME,  
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
